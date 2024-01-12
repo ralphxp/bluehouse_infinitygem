@@ -1,0 +1,15 @@
+{
+  "name": "InfinityGem",
+  "description": "Bluehouse Technologies Infinity Gem ",
+  "version": "1.0.0",
+  "homepage": "https://ig.bluehouseng.com",
+  "author": "Bluehouse Technologies",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./css/style.css -o ./style.css --watch",
+    "build": "npx tailwindcss -i ./css/style.css -o ./style.css"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "tailwindcss": "^3.3.6"
+  }
+}
